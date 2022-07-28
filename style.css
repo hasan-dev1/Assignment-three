@@ -4,7 +4,7 @@ body{
 }
 
 
-.carousel-item::after{
+.overlay::after{
     content: '';
     top: 0;
     left: 0;
@@ -64,6 +64,15 @@ body{
     white-space: nowrap;
      overflow: hidden;
      text-overflow: ellipsis;
+}
+
+@media (min-width: 1px) and (max-width:576px) {
+    .banner-text h3{
+        font-size: 17px;
+    }
+    .banner-text p{
+        font-size: 12px;
+    }
 }
 
 
